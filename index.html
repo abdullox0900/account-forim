@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>AccountForm</title>
+</head>
+
+<body>
+
+    <h1 class="visually-hidden">Account-form</h1>
+
+    <!-- SECTION-FORM 🙂 -->
+    <section>
+        <div class="wrapper">
+            <div class="wrapp-top">
+                <h2 class="wrapp-title">Account settings</h2>
+            </div>
+            <form action="https://echo.htmlacademy.ru/courses" method="post" class="form-wrapp">
+                <div class="form-user-img"></div>
+
+                <label for="acc_user_name" class="wrapp-form-label">USERNAME</label>
+                <input class="wrapp-form-input" id="acc_user_name" type="text" name="user-name" required placeholder="Enter your username">
+
+                <div class="last-wrapp-form">
+
+                    <div class="last-wrapp-box">
+                        <label for="acc_user_first_name"  class="wrapp-form-label">FIRST NAME</label>
+                        <input class="wrapp-form-input" id="acc_user_first_name" type="text" name="user-first-name" required
+                            placeholder="Enter your first name">
+                    </div>
+
+                    <div class="last-wrapp-box">
+                        <label for="user_last_name" class="wrapp-form-label">LAST NAME</label>
+                        <input class="wrapp-form-input" id="user_last_name" type="text" name="user-last-name" required
+                            placeholder="Enter your last name">
+                    </div>
+
+                </div>
+
+                <label for="user_email" class="wrapp-form-label">EMAIL</label>
+                <input class="wrapp-form-input" id="user_email" type="email" name="user-email" required placeholder="Enter your email">
+
+                <label for="acc-message" class="wrapp-form-label wrapp-form-label">BIO</label>
+                <textarea class="acc-message wrapp-form-input" name="message" id="acc-message" cols="30"
+                    rows="10">Tell us about youself
+                </textarea>
+
+                <div class="wrapp-bottom">
+                    <button class="wrapp-btn" type="reset">Cancel</button>
+                    <button class="wrapp-btn" type="submit">Save</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
